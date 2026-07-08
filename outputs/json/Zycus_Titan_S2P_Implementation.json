@@ -1,0 +1,51 @@
+{
+  "project": "Zycus - Titan S2P Implementation",
+  "manager": "Aftab Hashambhai",
+  "as_of": "2026-07-08",
+  "rag": "RED",
+  "risk_score": 41.5,
+  "confidence": "High",
+  "data_completeness_pct": 91.7,
+  "existing_schedule_health": "Green",
+  "counts": {
+    "total_tasks": 493,
+    "completed": 262,
+    "in_progress": 22,
+    "not_started": 197,
+    "on_hold": 3,
+    "overdue_open": 29,
+    "critical_overdue": 0,
+    "severe_variance": 121
+  },
+  "signals": {
+    "schedule": 18.8,
+    "milestone": 6.0,
+    "blockers": 5.0,
+    "sentiment": "Negative",
+    "data_quality_penalty": 1.6,
+    "comment_risk_hits": 2
+  },
+  "reasons": [
+    "29 overdue open task(s)",
+    "3 task(s) on hold",
+    "121 task(s) with severe schedule variance (\u2264 -10 days)",
+    "2 blocker/risk signal(s) detected in comments"
+  ],
+  "top_risk_tasks": [
+    "iSupplier outbound",
+    "iSupplier Integration Overview",
+    "iSupplier Integration Scenarios and Mapping",
+    "iSupplier Integration Mapping discussions",
+    "iSupplier end to end integration flow",
+    "iSupplier TDD review",
+    "Working integrations demo for iSupplier &   \nOverall integration summary and next steps discussion",
+    "Configuration and Build phase"
+  ],
+  "assumptions": [
+    "Negative variance values are treated as schedule delay signals.",
+    "Tasks ending before the reporting date and not completed are overdue.",
+    "Blank budget fields mean budget health is Unknown, not Green.",
+    "Comments are keyword-scanned for blocker and sentiment signals.",
+    "Critical-task breaches can override the weighted score."
+  ]
+}

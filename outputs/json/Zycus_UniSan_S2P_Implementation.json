@@ -1,0 +1,49 @@
+{
+  "project": "Zycus - UniSan S2P Implementation",
+  "manager": "Rajat Bothra",
+  "as_of": "2026-07-08",
+  "rag": "AMBER",
+  "risk_score": 38.4,
+  "confidence": "High",
+  "data_completeness_pct": 100.0,
+  "existing_schedule_health": "Red",
+  "counts": {
+    "total_tasks": 383,
+    "completed": 149,
+    "in_progress": 42,
+    "not_started": 192,
+    "on_hold": 0,
+    "overdue_open": 42,
+    "critical_overdue": 2,
+    "severe_variance": 0
+  },
+  "signals": {
+    "schedule": 24.4,
+    "milestone": 10.0,
+    "blockers": 0.0,
+    "sentiment": "Neutral / insufficient",
+    "data_quality_penalty": 0.0,
+    "comment_risk_hits": 0
+  },
+  "reasons": [
+    "2 critical overdue task(s)",
+    "42 overdue open task(s)"
+  ],
+  "top_risk_tasks": [
+    "Training Phase I",
+    "Train The Trainer",
+    "Admin Training",
+    "Hypercare Phase I",
+    "iSource Configuration Documentation Workshop",
+    "eProc, eInvoice and Merlin APSD Configuration Documentation Workshop",
+    "Integration Configuration Documentation Workshop ( eInovoice, iContract)",
+    "iSource Configuration Documentation"
+  ],
+  "assumptions": [
+    "Negative variance values are treated as schedule delay signals.",
+    "Tasks ending before the reporting date and not completed are overdue.",
+    "Blank budget fields mean budget health is Unknown, not Green.",
+    "Comments are keyword-scanned for blocker and sentiment signals.",
+    "Critical-task breaches can override the weighted score."
+  ]
+}
