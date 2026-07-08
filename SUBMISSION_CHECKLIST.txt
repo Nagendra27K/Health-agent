@@ -1,0 +1,9 @@
+ZYcus Assignment Submission Checklist
+[✓] One-page RAG methodology (PDF + DOCX)
+[✓] Working AI-style health reporting agent (Python)
+[✓] Run instructions (README + Windows launcher)
+[✓] Sample weekly outputs for both project plans
+[✓] Machine-readable JSON outputs
+[✓] 6-slide executive monthly synthesis
+[✓] Original sample plans included
+Before sending: open the PPTX and PDF once, then upload this ZIP or repository.
